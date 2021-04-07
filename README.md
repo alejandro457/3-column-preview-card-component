@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution: [Add solution URL here](https://your-solution-url.com)
-- Live Site: [Add live site URL here](https://your-live-site-url.com)
+- Solution: [frontendmentor.io/solutions/card-component-using-scss-and-bem-ccWX5JTLQ](https://www.frontendmentor.io/solutions/card-component-using-scss-and-bem-ccWX5JTLQ)
+- Live Site: [alejandro457.github.io/3-column-preview-card-component](https://alejandro457.github.io/3-column-preview-card-component/)
 
 ## My process
 
