@@ -1,0 +1,134 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 15px;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 2.4em;
+}
+
+p,
+body {
+  margin: 0;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+.main {
+  padding: 6rem 1.6rem;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card {
+  max-width: 900px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
+  border-radius: 10px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card__preview {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 300px;
+          flex: 1 1 300px;
+  background-color: var(--color);
+  padding: 3rem;
+}
+
+.card__preview:first-child {
+  --color: #e38826;
+}
+
+.card__preview:first-child::before {
+  content: url(../assets/icons/icon-sedans.svg);
+}
+
+.card__preview:nth-child(2) {
+  --color: #006970;
+}
+
+.card__preview:nth-child(2)::before {
+  content: url(../assets/icons/icon-suvs.svg);
+}
+
+.card__preview:last-child {
+  --color: #004241;
+}
+
+.card__preview:last-child::before {
+  content: url(../assets/icons/icon-luxury.svg);
+}
+
+.card__heading {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.card__paragraph {
+  line-height: 1.7;
+}
+
+.card__link {
+  color: var(--color);
+  background-color: #f2f2f2;
+  height: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 1.5rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+  -webkit-transition: background .5s, color .5s;
+  transition: background .5s, color .5s;
+}
+
+.card__link:hover {
+  background-color: transparent;
+  -webkit-box-shadow: inset 0 0 0 2px #f2f2f2;
+          box-shadow: inset 0 0 0 2px #f2f2f2;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+@media screen and (min-width: 1024px) {
+  .card__link {
+    margin-top: 5rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
